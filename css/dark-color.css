@@ -1,0 +1,52 @@
+html body {
+    color: #dfdfdf;
+    background-color: #2b2b2b;
+}
+
+header {
+    background-color: #4b4b4b;
+}
+
+main {
+    background-color: #4b4b4b;
+}
+
+footer {
+    background-color: #000000;
+}
+
+a {
+    color: #dfdfdf;
+}
+
+button {
+    color: #dfdfdf;
+    background-color: #646464;
+    border-color: #b6b6b6;
+}
+
+button:hover {
+    background-color: #a8a8a8;
+}
+  
+button:active {
+    padding: 2px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+#input-placeholder {
+    background-color: #636363;
+}
+
+#search-href {
+    background-image: url("../assets/dark-search.png");
+}
+
+#theme-href {
+    background-image: url("../assets/dark-theme.png");
+}
+
+#account-href {
+    background-image: url("../assets/dark-profile.png");
+}

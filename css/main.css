@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    transition: background-color 1.5s, color 0.5s;
+}
+
+header {
+    transition: background-color 1.5s, color 0.5s;
+}
+
+main {
+    margin-top: 92px;
+    margin-bottom: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    width: 80vw;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 1.5s, color 0.5s;
+}
+
+footer{
+    transition: background-color 1.5s, color 0.5s;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    box-shadow: none !important;
+    padding: 5px;
+    border: 2px;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s, padding 0.3s;
+}
+  
+.light-text {
+    font-weight: 300;
+}
+
+.bald-text {
+    font-weight: 700;
+}
+
+.smaller-text {
+    font-size: smaller;
+}
+
+.small-text {
+    font-size: small;
+}
+
+.medium-text {
+    font-size: medium;
+}
+
+.large-text {
+    font-size: large;
+}
+
+.larger-text {
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hidden-button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+  }
+  
+  button:focus,
+  button:active {
+    outline: none;
+  }
+
+
+.href {
+    padding: 0px;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fullscreen-placeholder {
+    position: fixed;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe {
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
