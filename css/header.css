@@ -1,0 +1,35 @@
+header {
+    margin-top: -92px;
+    position:fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+}
+
+header img {
+    width: 28px;
+    height: 28px;
+}
+
+header #link-title {
+    position: relative;
+    top: -5px;
+}
+
+.header-left {
+    position: absolute;
+    left: 10vw;
+
+}
+
+.header-center * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-right {
+    position: absolute;
+    right: 10vw;
+}
