@@ -1,0 +1,191 @@
+$font-color: rgb(240, 240, 240);
+
+$bg-color: rgb(32, 32, 32);
+$object-bg-color: rgb(49, 49, 49);
+
+$darker: rgba(0, 0, 0, 0);
+
+$border-radius: 5px;
+$shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.4);
+
+$dev-markup-color: rgba(255, 0, 0, 0);
+
+
+* {
+    transition: background-color 1.5s, color 0.5s, box-shadow 1.5s;
+}
+
+.styled {
+    border-radius: $border-radius;
+    margin: 5px;
+    margin-bottom: 10px;
+    background-color: $object-bg-color;
+    box-shadow: $shadow;
+    overflow: hidden;
+}
+
+body {
+    background-color: $bg-color;
+    color: $font-color;
+}
+
+* {
+    margin: 20px;
+}
+header {
+    top: 0px;
+    height: 45px;
+    width: 100vw;
+    position: fixed !important;
+    z-index: 9;
+    background-color: $object-bg-color;
+    box-shadow: $shadow;
+    .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        * {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    .central {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        * {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+    .right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        * {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    }
+}
+
+main {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+footer {
+    background-color: $object-bg-color;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    margin-top: 60px;
+}
+
+.plane {
+    position: relative;
+    display: flex;    
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.scrollable-h {
+    overflow-x: scroll;
+}
+
+.scrollable-v {
+    overflow-y: scroll;
+}
+
+.title {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    background-color: $darker;
+}
+
+.caption {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.placeholder {
+    position: relative;
+    box-shadow: 0px 0px 0px 2px $dev-markup-color;
+    width: 100%;
+    overflow: hidden;
+}
+
+.max-height {
+    height: 80%;
+}
+
+.min-height {
+    height: 30%;
+}
+
+.auto-height {
+    height: auto;
+}
+
+.h400 {
+    height: 400px;
+}
+.h300 {
+    height: 300px;
+}
+.h200 {
+    height: 200px;
+}
+
+.max-width {
+    width: 100%;
+}
+
+.min-width {
+    width: 50%;
+}
+
+.title-preview {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 130px;
+    height: 195px;
+}
+
+.news {
+    min-width: 275px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: $border-radius;
+    background-color: $darker;
+    margin-bottom: 5px;
+    .name {
+        margin-top: 2px;
+        margin-left: 2px;
+    }
+    .data {
+        margin: 2px;
+    }
+}
